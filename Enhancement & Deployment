@@ -142,5 +142,3 @@ test('renders post title', () => {
 - Deployment logs show success
 
 ---
-
-Would you like me to generate a sample image of the blogging platform UI to visualize the final result?
