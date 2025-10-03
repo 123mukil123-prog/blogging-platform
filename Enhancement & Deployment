@@ -2,9 +2,9 @@ Here’s a complete coding walkthrough for a blogging platform with enhancements
 
 ---
 
-🧩 1. Additional Features
+1. Additional Features
 
-✅ Feature: Create & Display Blog Posts
+Feature: Create & Display Blog Posts
 
 Backend (Express + MongoDB):
 
@@ -44,19 +44,19 @@ function CreatePost() {
 }
 `
 
-🖥️ Input Example:
+Input Example:
 - Title: “My First Blog”
 - Content: “This is a test post.”
 
-✅ Output:
+Output:
 - Console logs the saved post object.
 - Post appears on homepage.
 
 ---
 
-🎨 2. UI/UX Improvements
+2. UI/UX Improvements
 
-✅ Feature: Dark Mode Toggle
+Feature: Dark Mode Toggle
 
 `jsx
 function DarkModeToggle() {
@@ -68,14 +68,14 @@ function DarkModeToggle() {
 }
 `
 
-✅ Output:
+Output:
 - Clicking button toggles background and text color.
 
 ---
 
-🔌 3. API Enhancements
+3. API Enhancements
 
-✅ Feature: Search Posts
+Feature: Search Posts
 
 `js
 // GET /api/posts/search?q=blog
@@ -86,17 +86,17 @@ app.get('/api/posts/search', async (req, res) => {
 });
 `
 
-🖥️ Input Example:
+Input Example:
 - Search query: “blog”
 
-✅ Output:
+Output:
 - Returns matching posts in JSON.
 
 ---
 
-🚀 4. Performance & Security
+4. Performance & Security
 
-✅ Helmet & Compression
+Helmet & Compression
 
 `js
 const helmet = require('helmet');
@@ -105,15 +105,15 @@ app.use(helmet());
 app.use(compression());
 `
 
-✅ Output:
+Output:
 - Security headers added.
 - Faster response times.
 
 ---
 
-🧪 5. Testing Enhancements
+5. Testing Enhancements
 
-✅ Jest Test Example
+Jest Test Example
 
 `js
 test('renders post title', () => {
@@ -122,14 +122,14 @@ test('renders post title', () => {
 });
 `
 
-✅ Output:
+Output:
 - Terminal shows: ✓ renders post title
 
 ---
 
-☁️ 6. Deployment (Netlify/Vercel)
+6. Deployment (Netlify/Vercel)
 
-✅ Steps:
+Steps:
 1. Push code to GitHub
 2. Go to Netlify or Vercel
 3. Connect GitHub repo
@@ -137,7 +137,7 @@ test('renders post title', () => {
 5. Set publish directory: build (React) or dist (Next.js)
 6. Click “Deploy”
 
-✅ Output:
+Output:
 - Live site URL (e.g., https://myblog.vercel.app)
 - Deployment logs show success
 
